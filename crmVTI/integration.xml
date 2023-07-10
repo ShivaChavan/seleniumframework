@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testCase.TC_04CreateContactsWithExistingOrganization_Test"/>
+      <class name="testCase.TC_01craeteOrganizationusingTypeandIndustry_Test"/>
+      <class name="testCase.TC_02createContact_Test"/>
+      <class name="testCase.TC_03CreateContactWithMandatoryField_Test"/>
+      <class name="testCase.TC_05CreatenewLead_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
